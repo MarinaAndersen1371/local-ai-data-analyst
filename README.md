@@ -37,6 +37,7 @@ Python and Pandas perform the actual data analysis and calculate the metrics. Th
 
 This approach reduces unnecessary data transfer to the model and helps prevent the LLM from inventing numerical results.
 
+```text
 CSV Dataset
     |
     v
@@ -67,9 +68,11 @@ JSON Reports          Analysis Context
                            |
                            v
                  Interactive AI Assistant
+```
 
-Project Structure
+## Project Structure
 
+```text
 local-ai-data-analyst/
 │
 ├── data/
@@ -93,27 +96,7 @@ local-ai-data-analyst/
 ├── pyproject.toml
 ├── uv.lock
 └── README.md
-```
-## Installation & Usage
 
-**Requirements:** Python 3.12, [uv](https://docs.astral.sh/uv/), and [Ollama](https://ollama.com/).
-
-Install dependencies:
-
-```powershell
-uv sync --dev
-```
-
-Download the model:
-
-```powershell
-ollama pull qwen3:8b
-```
-
-Create your environment file:
-
-```powershell
-Copy-Item .env.example .env
 ```
 
 Run the application:
