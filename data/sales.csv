@@ -1,0 +1,501 @@
+transaction_id,order_date,customer_id,customer_segment,product_id,product_name,category,quantity,unit_price,discount_pct,total_amount,region,payment_method
+T00001,2025-05-06,C0095,Consumer,P002,Smartphone,Electronics,1,649.99,0.1,584.99,South,Credit Card
+T00002,2025-08-05,C0012,Consumer,P009,Backpack,Accessories,2,49.99,0.2,79.98,North,Debit Card
+T00003,2025-04-12,C0058,Consumer,P004,Monitor,Electronics,1,249.99,0.2,199.99,West,PayPal
+T00004,2025-06-24,C0028,Consumer,P001,Laptop,Electronics,3,899.99,0.15,2294.97,East,PayPal
+T00005,2025-02-19,C0078,Corporate,P002,Smartphone,Electronics,2,649.99,0.15,1104.98,East,PayPal
+T00006,2025-03-05,C0071,Consumer,P001,Laptop,Electronics,8,899.99,0.2,5759.94,West,PayPal
+T00007,2025-04-09,C0085,Consumer,P010,Water Bottle,Accessories,6,19.99,0.2,95.95,North,Debit Card
+T00008,2025-02-21,C0059,Corporate,P005,Office Chair,Furniture,2,179.99,0.05,341.98,West,PayPal
+T00009,2025-04-18,C0120,Small Business,P003,Headphones,Electronics,6,89.99,0.1,485.95,East,Credit Card
+T00010,2025-05-06,C0049,Corporate,P010,Water Bottle,Accessories,3,19.99,0.2,47.98,South,PayPal
+T00011,2025-01-29,C0104,Consumer,P009,Backpack,Accessories,4,49.99,0.1,179.96,South,PayPal
+T00012,2025-04-19,C0084,Consumer,P007,Notebook,Stationery,5,4.99,0,24.95,East,Bank Transfer
+T00013,2025-05-16,C0096,Consumer,P007,Notebook,Stationery,8,4.99,0.05,37.92,South,PayPal
+T00014,2025-07-24,C0018,Consumer,P010,Water Bottle,Accessories,7,19.99,0.2,111.94,East,Bank Transfer
+T00015,2025-03-20,C0055,Small Business,P002,Smartphone,Electronics,1,649.99,0,649.99,South,Credit Card
+T00016,2025-08-28,C0111,Small Business,P007,Notebook,Stationery,7,4.99,0.2,27.94,East,Credit Card
+T00017,2025-02-27,C0021,Corporate,P002,Smartphone,Electronics,5,649.99,0.1,2924.95,East,Bank Transfer
+T00018,2025-04-02,C0039,Small Business,P001,Laptop,Electronics,5,899.99,0.2,3599.96,North,Debit Card
+T00019,2025-10-04,C0042,Small Business,P003,Headphones,Electronics,6,89.99,0.05,512.94,North,Bank Transfer
+T00020,2025-06-07,C0031,Consumer,P001,Laptop,Electronics,2,899.99,0.1,1619.98,South,Credit Card
+T00021,2025-09-30,C0085,Consumer,P002,Smartphone,Electronics,8,649.99,0,5199.92,South,Bank Transfer
+T00022,2025-09-28,C0119,Consumer,P009,Backpack,Accessories,3,49.99,0.1,134.97,West,Debit Card
+T00023,2025-08-13,C0032,Consumer,P005,Office Chair,Furniture,7,179.99,0.1,1133.94,West,Debit Card
+T00024,2025-10-29,C0029,Small Business,P002,Smartphone,Electronics,6,649.99,0,3899.94,South,Credit Card
+T00025,2025-02-04,C0010,Corporate,P002,Smartphone,Electronics,1,649.99,0.05,617.49,,Debit Card
+T00026,2025-10-04,C0120,Small Business,P005,Office Chair,Furniture,8,179.99,0.05,1367.92,South,Bank Transfer
+T00027,2025-04-08,C0085,Consumer,P004,Monitor,Electronics,8,249.99,0.15,1699.93,North,Bank Transfer
+T00028,2025-08-28,C0084,Small Business,P006,Desk,Furniture,7,299.99,0.15,1784.94,North,Credit Card
+T00029,2025-02-25,C0025,Consumer,P001,Laptop,Electronics,7,899.99,0.1,5669.94,South,Bank Transfer
+T00030,2025-05-23,C0112,Consumer,P003,Headphones,Electronics,7,89.99,0.05,598.43,West,Credit Card
+T00031,2025-11-30,C0119,Consumer,P008,Pen Set,Stationery,2,12.99,0,25.98,North,Debit Card
+T00032,2025-09-04,C0116,Corporate,P003,Headphones,Electronics,7,89.99,0.15,535.44,South,Credit Card
+T00033,2025-07-19,C0037,Corporate,P003,Headphones,Electronics,7,89.99,0,629.93,East,Bank Transfer
+T00034,2025-04-08,C0008,Consumer,P009,Backpack,Accessories,8,49.99,0.05,379.92,East,Credit Card
+T00035,2025-10-27,C0118,Small Business,P006,Desk,Furniture,1,299.99,0,299.99,West,Debit Card
+T00036,2025-02-05,C0111,Small Business,P001,Laptop,Electronics,2,899.99,0.05,1709.98,North,Debit Card
+T00037,2025-05-07,C0011,Small Business,P007,Notebook,Stationery,2,4.99,0.2,7.98,North,Bank Transfer
+T00038,2025-04-15,C0034,Consumer,P010,Water Bottle,Accessories,6,19.99,0.1,107.95,East,Bank Transfer
+T00039,2025-06-11,C0059,Consumer,P003,Headphones,Electronics,5,89.99,0.15,382.46,North,Credit Card
+T00040,2025-05-16,C0113,Corporate,P002,Smartphone,Electronics,4,649.99,0.2,2079.97,South,Credit Card
+T00041,2025-03-22,C0091,Small Business,P004,Monitor,Electronics,6,249.99,0.1,1349.95,West,PayPal
+T00042,2025-06-03,C0034,Consumer,P010,Water Bottle,Accessories,1,19.99,0.2,15.99,North,Credit Card
+T00043,2025-05-25,C0044,Small Business,P002,Smartphone,Electronics,3,649.99,0.1,1754.97,South,Debit Card
+T00044,2025-01-27,C0055,Small Business,P005,Office Chair,Furniture,8,179.99,0.1,1295.93,North,PayPal
+T00045,2025-03-08,C0095,Consumer,P001,Laptop,Electronics,1,899.99,0.1,809.99,East,Bank Transfer
+T00046,2025-01-05,C0114,Consumer,P009,Backpack,Accessories,7,49.99,0.2,279.94,North,Debit Card
+T00047,2025-10-26,C0017,Corporate,P009,Backpack,Accessories,1,49.99,0.1,44.99,South,Credit Card
+T00048,2025-07-03,C0032,Small Business,P005,Office Chair,Furniture,6,179.99,0,1079.94,South,Credit Card
+T00049,2025-03-21,C0103,Consumer,P006,Desk,Furniture,7,299.99,0.2,1679.94,South,Debit Card
+T00050,2025-06-20,C0111,Small Business,P007,Notebook,Stationery,1,4.99,0.05,4.74,West,Debit Card
+T00051,2025-07-15,C0029,Corporate,P005,Office Chair,Furniture,3,179.99,0,539.97,North,Debit Card
+T00052,2025-04-27,C0085,Consumer,P008,Pen Set,Stationery,6,12.99,0.1,70.15,South,Debit Card
+T00053,2025-02-05,C0083,Corporate,P007,Notebook,Stationery,6,4.99,0.1,26.95,East,Bank Transfer
+T00054,2025-03-01,C0075,Consumer,P009,Backpack,Accessories,6,49.99,0,299.94,East,PayPal
+T00055,2025-08-11,C0101,Small Business,P001,Laptop,Electronics,2,899.99,0.2,1439.98,East,PayPal
+T00056,2025-10-23,C0006,Corporate,P007,Notebook,Stationery,2,4.99,0.15,8.48,South,Bank Transfer
+T00057,2025-08-09,C0118,Small Business,P001,Laptop,Electronics,4,899.99,0.1,3239.96,North,PayPal
+T00058,2025-06-03,C0053,Small Business,P010,Water Bottle,Accessories,6,19.99,0,119.94,East,PayPal
+T00059,2025-03-07,C0086,Corporate,P007,Notebook,Stationery,5,4.99,0.2,19.96,South,Bank Transfer
+T00060,2025-10-08,C0037,Corporate,P003,Headphones,Electronics,5,89.99,0.15,382.46,North,Debit Card
+T00061,2025-08-15,C0028,Small Business,P007,Notebook,Stationery,6,4.99,0.15,25.45,West,Bank Transfer
+T00062,2025-09-21,C0105,Consumer,P003,Headphones,Electronics,2,89.99,0.1,161.98,East,Debit Card
+T00063,2025-03-17,C0032,Consumer,P005,Office Chair,Furniture,4,179.99,0.05,683.96,North,Bank Transfer
+T00064,2025-08-01,C0090,Small Business,P010,Water Bottle,Accessories,2,19.99,0.15,33.98,South,Bank Transfer
+T00065,2025-03-17,C0100,Consumer,P008,Pen Set,Stationery,7,12.99,0.05,86.38,North,Bank Transfer
+T00066,2025-08-26,C0032,Small Business,P004,Monitor,Electronics,3,249.99,0.2,599.98,North,Credit Card
+T00067,2025-12-08,C0079,Corporate,P008,Pen Set,Stationery,3,12.99,0.15,33.12,East,Bank Transfer
+T00068,2025-09-01,C0097,Corporate,P009,Backpack,Accessories,8,49.99,0.05,379.92,West,Debit Card
+T00069,2025-05-21,C0092,Consumer,P005,Office Chair,Furniture,8,179.99,0.05,1367.92,West,PayPal
+T00070,2025-06-13,C0020,Consumer,P004,Monitor,Electronics,5,249.99,0.1,1124.96,North,Debit Card
+T00071,2025-02-02,C0043,Corporate,P007,Notebook,Stationery,3,4.99,0.05,14.22,West,Bank Transfer
+T00072,2025-08-04,C0090,Small Business,P007,Notebook,Stationery,1,4.99,0.05,4.74,West,Credit Card
+T00073,2025-01-04,C0097,Corporate,P010,Water Bottle,Accessories,7,19.99,0.15,118.94,East,Bank Transfer
+T00074,2025-04-23,C0063,Corporate,P007,Notebook,Stationery,4,4.99,0.15,16.97,East,Credit Card
+T00075,2025-03-26,C0080,,P007,Notebook,Stationery,6,4.99,0.15,25.45,West,Credit Card
+T00076,2025-11-26,C0111,Consumer,P007,Notebook,Stationery,1,4.99,0,4.99,West,Bank Transfer
+T00077,2025-07-14,C0059,Consumer,P003,Headphones,Electronics,1,89.99,0.1,80.99,East,PayPal
+T00078,2025-08-04,C0061,Consumer,P006,Desk,Furniture,7,299.99,0.1,1889.94,East,Credit Card
+T00079,2025-04-25,C0006,Small Business,P009,Backpack,Accessories,1,49.99,0.1,44.99,North,Credit Card
+T00080,2025-11-15,C0017,Consumer,P004,Monitor,Electronics,4,249.99,0,999.96,South,Bank Transfer
+T00081,2025-12-25,C0022,Corporate,P002,Smartphone,Electronics,4,649.99,0.15,2209.97,East,Credit Card
+T00082,2025-10-24,C0074,Corporate,P003,Headphones,Electronics,5,89.99,0,449.95,North,Bank Transfer
+T00083,2025-10-31,C0090,Consumer,P007,Notebook,Stationery,4,4.99,0,19.96,South,PayPal
+T00084,2025-01-22,C0055,Small Business,P010,Water Bottle,Accessories,2,19.99,0.2,31.98,East,PayPal
+T00085,2025-08-04,C0056,Consumer,P002,Smartphone,Electronics,6,649.99,0,3899.94,West,PayPal
+T00086,2025-04-01,C0104,Small Business,P008,Pen Set,Stationery,3,12.99,0.15,33.12,East,Bank Transfer
+T00087,2025-05-18,C0107,Consumer,P008,Pen Set,Stationery,7,12.99,0.2,72.74,East,Credit Card
+T00088,2025-08-26,C0004,Corporate,P005,Office Chair,Furniture,8,179.99,0.05,1367.92,West,Bank Transfer
+T00089,2025-04-19,C0044,Corporate,P006,Desk,Furniture,3,299.99,0.15,764.97,East,PayPal
+T00090,2025-01-06,C0031,Consumer,P010,Water Bottle,Accessories,5,19.99,0.2,79.96,South,Bank Transfer
+T00091,2025-11-27,C0102,Corporate,P008,Pen Set,Stationery,4,12.99,0.15,44.17,West,Credit Card
+T00092,2025-07-27,C0085,Corporate,P002,Smartphone,Electronics,5,649.99,0.05,3087.45,South,PayPal
+T00093,2025-10-09,C0090,Corporate,P008,Pen Set,Stationery,6,12.99,0.15,66.25,East,Bank Transfer
+T00094,2025-04-29,C0025,Small Business,P005,Office Chair,Furniture,5,179.99,0.1,809.96,North,PayPal
+T00095,2025-04-21,C0093,Corporate,P002,Smartphone,Electronics,3,649.99,0.05,1852.47,West,PayPal
+T00096,2025-04-27,C0039,Consumer,P002,Smartphone,Electronics,4,649.99,0.1,2339.96,East,Credit Card
+T00097,2025-01-24,C0038,Small Business,P009,Backpack,Accessories,3,49.99,0.1,134.97,North,Debit Card
+T00098,2025-10-21,C0062,Corporate,P008,Pen Set,Stationery,2,12.99,0,25.98,East,Bank Transfer
+T00099,2025-05-10,C0106,Consumer,P006,Desk,Furniture,3,299.99,0,899.97,West,Credit Card
+T00100,2025-10-23,C0020,Consumer,P007,Notebook,Stationery,8,4.99,0,39.92,North,PayPal
+T00101,2025-10-13,C0077,Small Business,P002,Smartphone,Electronics,4,649.99,0,2599.96,West,Debit Card
+T00102,2025-08-15,C0055,Small Business,P009,Backpack,Accessories,7,49.99,0.15,297.44,East,PayPal
+T00103,2025-02-20,C0028,Small Business,P010,Water Bottle,Accessories,1,19.99,0.2,15.99,South,PayPal
+T00104,2025-03-30,C0001,Consumer,P002,Smartphone,Electronics,3,649.99,0.05,1852.47,North,Bank Transfer
+T00105,2025-01-17,C0091,Corporate,P008,Pen Set,Stationery,8,12.99,0.1,93.53,South,PayPal
+T00106,2025-05-16,C0015,Corporate,P008,Pen Set,Stationery,2,12.99,0.05,24.68,South,Debit Card
+T00107,2025-02-06,C0102,Consumer,P003,Headphones,Electronics,5,89.99,0.05,427.45,North,PayPal
+T00108,2025-03-05,C0039,Small Business,P010,Water Bottle,Accessories,5,19.99,0.15,84.96,West,Bank Transfer
+T00109,2025-02-11,C0095,Corporate,P005,Office Chair,Furniture,8,179.99,0.15,1223.93,North,PayPal
+T00110,2025-02-16,C0108,Small Business,P010,Water Bottle,Accessories,5,19.99,0,99.95,South,Credit Card
+T00111,2025-08-29,C0024,Corporate,P005,Office Chair,Furniture,1,179.99,0.05,170.99,West,Bank Transfer
+T00112,2025-06-28,C0042,Corporate,P008,Pen Set,Stationery,2,12.99,0.15,22.08,West,Credit Card
+T00113,2025-12-22,C0085,Corporate,P003,Headphones,Electronics,6,89.99,0.15,458.95,West,Bank Transfer
+T00114,2025-02-15,C0042,Corporate,P009,Backpack,Accessories,1,49.99,0.15,42.49,East,Credit Card
+T00115,2025-08-25,C0025,Consumer,P007,Notebook,Stationery,1,4.99,0.2,3.99,West,PayPal
+T00116,2025-01-27,C0071,Corporate,P010,Water Bottle,Accessories,8,19.99,0.15,135.93,South,Debit Card
+T00117,2025-03-04,C0078,Small Business,P005,Office Chair,Furniture,8,179.99,0.15,1223.93,North,Debit Card
+T00118,2025-01-08,C0029,Consumer,P003,Headphones,Electronics,5,89.99,0.2,359.96,West,Credit Card
+T00119,2025-09-13,C0091,Small Business,P008,Pen Set,Stationery,2,12.99,0.05,24.68,East,PayPal
+T00120,2025-05-05,C0019,Small Business,P007,Notebook,Stationery,45,4.99,0.15,190.87,West,Bank Transfer
+T00121,2025-05-22,C0120,Corporate,P004,Monitor,Electronics,3,249.99,0,749.97,West,PayPal
+T00122,2025-10-28,C0058,Consumer,P001,Laptop,Electronics,5,899.99,0.1,4049.95,West,Bank Transfer
+T00123,2025-10-06,C0120,Corporate,P006,Desk,Furniture,6,299.99,0.2,1439.95,West,PayPal
+T00124,2025-07-16,C0006,Corporate,P004,Monitor,Electronics,4,249.99,0.2,799.97,South,PayPal
+T00125,2025-12-06,C0005,Corporate,P008,Pen Set,Stationery,7,12.99,0.15,77.29,South,Debit Card
+T00126,2025-08-14,C0117,Small Business,P009,Backpack,Accessories,6,49.99,0,299.94,North,Bank Transfer
+T00127,2025-12-02,C0061,Consumer,P001,Laptop,Electronics,3,899.99,0.15,2294.97,South,PayPal
+T00128,2025-06-18,C0081,Corporate,P006,Desk,Furniture,7,299.99,0,2099.93,West,Bank Transfer
+T00129,2025-02-05,C0088,Small Business,P009,Backpack,Accessories,1,49.99,0.2,39.99,South,PayPal
+T00130,2025-02-20,C0022,Corporate,P004,Monitor,Electronics,2,249.99,0.15,424.98,North,PayPal
+T00131,2025-01-29,C0048,Corporate,P001,Laptop,Electronics,1,899.99,0.1,809.99,East,Bank Transfer
+T00132,2025-07-30,C0023,Consumer,P003,Headphones,Electronics,4,89.99,0.2,287.97,South,Credit Card
+T00133,2025-12-16,C0117,Corporate,P010,Water Bottle,Accessories,7,19.99,0.2,111.94,South,Debit Card
+T00134,2025-08-24,C0002,Small Business,P004,Monitor,Electronics,8,249.99,0.1,1799.93,East,Bank Transfer
+T00135,2025-08-15,C0039,Small Business,P005,Office Chair,Furniture,3,179.99,0,539.97,East,Bank Transfer
+T00136,2025-04-12,C0014,Corporate,P005,Office Chair,Furniture,8,179.99,0.1,1295.93,West,Debit Card
+T00137,2025-06-01,C0107,Consumer,P007,Notebook,Stationery,6,4.99,0.2,23.95,East,Bank Transfer
+T00138,2025-12-18,C0096,Small Business,P005,Office Chair,Furniture,1,179.99,0.2,143.99,North,Bank Transfer
+T00139,2025-06-30,C0025,Small Business,P005,Office Chair,Furniture,4,179.99,0.2,575.97,South,PayPal
+T00140,2025-06-08,C0075,Consumer,P003,Headphones,Electronics,2,89.99,0,179.98,West,PayPal
+T00141,2025-06-17,C0026,Consumer,P003,Headphones,Electronics,2,89.99,0.1,161.98,West,Debit Card
+T00142,2025-09-14,C0033,Consumer,P009,Backpack,Accessories,6,49.99,0.2,239.95,East,Bank Transfer
+T00143,2025-08-28,C0097,Consumer,P005,Office Chair,Furniture,6,179.99,0,1079.94,North,Debit Card
+T00144,2025-07-22,C0069,Corporate,P007,Notebook,Stationery,6,4.99,0,29.94,North,Credit Card
+T00145,2025-10-27,C0048,Small Business,P008,Pen Set,Stationery,6,12.99,0.1,70.15,West,Credit Card
+T00146,2025-11-14,C0029,Small Business,P004,Monitor,Electronics,8,249.99,0,1999.92,East,Credit Card
+T00147,2025-03-01,C0005,Consumer,P008,Pen Set,Stationery,5,12.99,0.15,55.21,South,PayPal
+T00148,2025-05-01,C0059,Corporate,P008,Pen Set,Stationery,2,12.99,0,25.98,South,PayPal
+T00149,2025-03-21,C0013,Small Business,P009,Backpack,Accessories,7,49.99,0.2,279.94,West,Bank Transfer
+T00150,2025-01-17,C0057,Consumer,P010,Water Bottle,Accessories,7,19.99,0.1,125.94,East,Bank Transfer
+T00151,2025-12-18,C0116,Small Business,P004,Monitor,Electronics,6,249.99,0,1499.94,East,PayPal
+T00152,2025-04-08,C0012,Corporate,P001,Laptop,Electronics,7,899.99,0.1,5669.94,North,Debit Card
+T00153,2025-06-20,C0101,Consumer,P010,Water Bottle,Accessories,1,19.99,0,19.99,South,Debit Card
+T00154,2025-04-21,C0100,Corporate,P002,Smartphone,Electronics,4,649.99,0.2,2079.97,South,Debit Card
+T00155,2025-03-16,C0033,Small Business,P010,Water Bottle,Accessories,1,19.99,0.1,17.99,South,Debit Card
+T00156,2025-01-08,C0076,Consumer,P002,Smartphone,Electronics,1,649.99,0.05,617.49,East,PayPal
+T00157,2025-01-27,C0054,Small Business,P001,Laptop,Electronics,3,899.99,0.1,2429.97,South,Credit Card
+T00158,2025-07-05,C0065,Corporate,P002,Smartphone,Electronics,8,649.99,0.15,4419.93,North,Debit Card
+T00159,2025-06-04,C0004,Small Business,P010,Water Bottle,Accessories,1,19.99,0.2,15.99,West,Credit Card
+T00160,2025-12-18,C0092,Corporate,P008,Pen Set,Stationery,7,12.99,0.15,77.29,North,Bank Transfer
+T00161,2025-11-08,C0017,Consumer,P002,Smartphone,Electronics,2,649.99,0.1,1169.98,South,PayPal
+T00162,2025-11-02,C0065,Corporate,P010,Water Bottle,Accessories,6,19.99,0.15,101.95,East,Bank Transfer
+T00163,2025-04-21,C0114,Corporate,P002,Smartphone,Electronics,2,649.99,0.2,1039.98,West,Debit Card
+T00164,2025-07-24,C0013,Small Business,P007,Notebook,Stationery,6,4.99,0.15,25.45,West,PayPal
+T00165,2025-07-11,C0119,Small Business,P007,Notebook,Stationery,6,4.99,0.1,26.95,South,Bank Transfer
+T00166,2025-02-17,C0096,Consumer,P002,Smartphone,Electronics,2,649.99,0,1299.98,West,PayPal
+T00167,2025-10-15,C0016,Small Business,P003,Headphones,Electronics,1,89.99,0.2,71.99,East,Bank Transfer
+T00168,2025-05-28,C0014,Corporate,P006,Desk,Furniture,7,299.99,0,2099.93,East,Debit Card
+T00169,2025-02-25,C0048,Small Business,P003,Headphones,Electronics,8,89.99,0.05,683.92,East,Credit Card
+T00170,2025-10-15,C0119,Small Business,P005,Office Chair,Furniture,4,179.99,0.15,611.97,North,PayPal
+T00171,2025-12-26,C0045,Corporate,P001,Laptop,Electronics,3,899.99,0.1,2429.97,East,Credit Card
+T00172,2025-12-03,C0019,Consumer,P003,Headphones,Electronics,3,89.99,0.2,215.98,West,Credit Card
+T00173,2025-08-03,C0021,Corporate,P002,Smartphone,Electronics,4,649.99,0.15,2209.97,West,PayPal
+T00174,2025-11-02,C0020,Consumer,P005,Office Chair,Furniture,6,179.99,0.2,863.95,North,Debit Card
+T00175,2025-05-20,C0055,Small Business,P010,Water Bottle,Accessories,1,19.99,0,19.99,West,Bank Transfer
+T00176,2025-05-20,C0015,Small Business,P010,Water Bottle,Accessories,8,19.99,0.15,135.93,South,PayPal
+T00177,2025-12-14,C0086,Small Business,P007,Notebook,Stationery,2,4.99,0.1,8.98,West,PayPal
+T00178,2025-11-03,C0027,Consumer,P001,Laptop,Electronics,4,899.99,0.15,3059.97,North,PayPal
+T00179,2025-05-29,C0001,Consumer,P004,Monitor,Electronics,3,249.99,0.1,674.97,East,Bank Transfer
+T00180,2025-07-14,C0072,Small Business,P007,Notebook,Stationery,3,4.99,0.05,14.22,,PayPal
+T00181,2025-08-12,C0118,Corporate,P002,Smartphone,Electronics,7,649.99,0,4549.93,North,Credit Card
+T00182,2025-07-27,C0015,Corporate,P006,Desk,Furniture,7,299.99,0.2,1679.94,West,Bank Transfer
+T00183,2025-11-13,C0118,Small Business,P001,Laptop,Electronics,6,899.99,0.05,5129.94,West,PayPal
+T00184,2025-05-05,C0052,Small Business,P002,Smartphone,Electronics,7,649.99,0,4549.93,West,Credit Card
+T00185,2025-04-24,C0010,Consumer,P007,Notebook,Stationery,5,4.99,0.1,22.46,East,Credit Card
+T00186,2025-06-29,C0014,Consumer,P009,Backpack,Accessories,4,49.99,0.1,179.96,South,Debit Card
+T00187,2025-11-05,C0010,Small Business,P005,Office Chair,Furniture,4,179.99,0.05,683.96,South,Debit Card
+T00188,2025-10-24,C0119,Small Business,P008,Pen Set,Stationery,8,12.99,0.2,83.14,West,PayPal
+T00189,2025-02-04,C0081,Corporate,P006,Desk,Furniture,3,299.99,0.15,764.97,West,PayPal
+T00190,2025-09-17,C0060,Corporate,P005,Office Chair,Furniture,1,179.99,0.1,161.99,North,Bank Transfer
+T00191,2025-05-27,C0111,Small Business,P001,Laptop,Electronics,1,899.99,0.1,809.99,North,Credit Card
+T00192,2025-10-25,C0117,Corporate,P010,Water Bottle,Accessories,7,19.99,0.15,118.94,North,Debit Card
+T00193,2025-03-19,C0014,Corporate,P006,Desk,Furniture,8,299.99,0.2,1919.94,North,PayPal
+T00194,2025-05-07,C0068,Corporate,P002,Smartphone,Electronics,3,649.99,0,1949.97,West,Debit Card
+T00195,2025-07-18,C0087,Corporate,P006,Desk,Furniture,6,299.99,0.1,1619.95,West,Credit Card
+T00196,2025-02-18,C0033,Corporate,P006,Desk,Furniture,2,299.99,0.1,539.98,West,Debit Card
+T00197,2025-12-06,C0040,Corporate,P006,Desk,Furniture,2,299.99,0.2,479.98,South,Bank Transfer
+T00198,2025-10-14,C0102,Small Business,P003,Headphones,Electronics,2,89.99,0.1,161.98,West,PayPal
+T00199,2025-09-18,C0047,Consumer,P003,Headphones,Electronics,2,89.99,0.15,152.98,East,PayPal
+T00200,2025-09-06,C0018,Consumer,P003,Headphones,Electronics,4,89.99,0.1,323.96,South,Debit Card
+T00201,2025-09-17,C0044,Small Business,P002,Smartphone,Electronics,5,649.99,0,3249.95,North,Debit Card
+T00202,2025-03-25,C0099,Small Business,P010,Water Bottle,Accessories,7,19.99,0.05,132.93,South,Debit Card
+T00203,2025-07-06,C0079,Corporate,P008,Pen Set,Stationery,1,12.99,0.15,11.04,South,PayPal
+T00204,2025-05-03,C0116,Corporate,P008,Pen Set,Stationery,4,12.99,0.2,41.57,East,Debit Card
+T00205,2025-05-25,C0068,Small Business,P006,Desk,Furniture,8,299.99,0.15,2039.93,West,Bank Transfer
+T00206,2025-03-12,C0083,Consumer,P003,Headphones,Electronics,4,89.99,0.2,287.97,East,Bank Transfer
+T00207,2025-03-05,C0098,Consumer,P006,Desk,Furniture,2,299.99,0.2,479.98,East,Debit Card
+T00208,2025-03-17,C0117,Consumer,P005,Office Chair,Furniture,8,179.99,0.2,1151.94,West,Debit Card
+T00209,2025-08-01,C0065,Corporate,P008,Pen Set,Stationery,6,12.99,0,77.94,North,PayPal
+T00210,2025-07-11,C0041,Consumer,P004,Monitor,Electronics,7,249.99,0,1749.93,South,Credit Card
+T00211,2025-01-20,C0090,Corporate,P006,Desk,Furniture,3,299.99,0.05,854.97,East,Debit Card
+T00212,2025-01-03,C0033,Consumer,P008,Pen Set,Stationery,8,12.99,0.2,83.14,North,Debit Card
+T00213,2025-05-28,C0016,Corporate,P003,Headphones,Electronics,7,89.99,0,629.93,South,Credit Card
+T00214,2025-08-23,C0108,Consumer,P004,Monitor,Electronics,7,249.99,0.2,1399.94,North,Bank Transfer
+T00215,2025-10-22,C0019,Small Business,P010,Water Bottle,Accessories,1,19.99,0.2,15.99,South,PayPal
+T00216,2025-06-30,C0054,Small Business,P007,Notebook,Stationery,1,4.99,0.2,3.99,South,Debit Card
+T00217,2025-09-27,C0112,Corporate,P002,Smartphone,Electronics,6,649.99,0,3899.94,North,Bank Transfer
+T00218,2025-05-10,C0101,Corporate,P001,Laptop,Electronics,7,899.99,0.1,5669.94,North,Credit Card
+T00219,2025-10-25,C0006,Consumer,P006,Desk,Furniture,4,299.99,0,1199.96,East,PayPal
+T00220,2025-12-17,C0062,Small Business,P009,Backpack,Accessories,6,49.99,0.05,284.94,West,Debit Card
+T00221,2025-01-19,C0006,Consumer,P003,Headphones,Electronics,2,89.99,0.15,152.98,East,Debit Card
+T00222,2025-09-21,C0061,Small Business,P001,Laptop,Electronics,6,899.99,0.1,4859.95,West,PayPal
+T00223,2025-07-02,C0043,Small Business,P001,Laptop,Electronics,4,899.99,0.1,3239.96,North,PayPal
+T00224,2025-07-24,C0044,Corporate,P002,Smartphone,Electronics,6,649.99,0.15,3314.95,West,Debit Card
+T00225,2025-09-23,C0094,Consumer,P008,Pen Set,Stationery,8,12.99,0.1,93.53,East,Bank Transfer
+T00226,2025-04-03,C0014,Corporate,P002,Smartphone,Electronics,7,649.99,0.2,3639.94,East,Credit Card
+T00227,2025-08-17,C0089,Consumer,P006,Desk,Furniture,5,299.99,0.1,1349.96,West,Bank Transfer
+T00228,2025-06-30,C0082,Corporate,P006,Desk,Furniture,8,299.99,0,2399.92,West,Credit Card
+T00229,2025-09-20,C0019,Consumer,P002,Smartphone,Electronics,7,649.99,0.1,4094.94,South,Bank Transfer
+T00230,2025-05-01,C0050,Corporate,P001,Laptop,Electronics,3,899.99,0,2699.97,East,Credit Card
+T00231,2025-07-09,C0098,Corporate,P010,Water Bottle,Accessories,3,19.99,0.15,50.97,East,Credit Card
+T00232,2025-07-07,C0084,Corporate,P010,Water Bottle,Accessories,3,19.99,0.2,47.98,West,PayPal
+T00233,2025-04-06,C0050,Small Business,P004,Monitor,Electronics,2,249.99,0,499.98,West,Credit Card
+T00234,2025-04-20,C0118,Small Business,P005,Office Chair,Furniture,5,179.99,0.15,764.96,East,Bank Transfer
+T00235,2025-02-07,C0116,Consumer,P004,Monitor,Electronics,2,249.99,0.05,474.98,West,Bank Transfer
+T00236,2025-12-30,C0070,Small Business,P002,Smartphone,Electronics,6,649.99,0.1,3509.95,North,PayPal
+T00237,2025-07-05,C0026,Consumer,P005,Office Chair,Furniture,3,179.99,0.05,512.97,South,Debit Card
+T00238,2025-07-04,C0103,Corporate,P004,Monitor,Electronics,8,249.99,0,1999.92,East,Debit Card
+T00239,2025-06-08,C0093,Small Business,P010,Water Bottle,Accessories,2,19.99,0,39.98,West,Bank Transfer
+T00240,2025-10-22,C0041,Consumer,P009,Backpack,Accessories,7,49.99,0.15,297.44,North,Credit Card
+T00241,2025-06-26,C0082,Small Business,P008,Pen Set,Stationery,8,12.99,0.2,83.14,South,Debit Card
+T00242,2025-01-29,C0020,Small Business,P003,Headphones,Electronics,7,89.99,0.2,503.94,North,PayPal
+T00243,2025-12-30,C0067,Corporate,P003,Headphones,Electronics,3,89.99,0.1,242.97,South,PayPal
+T00244,2025-11-22,C0081,Consumer,P002,Smartphone,Electronics,5,649.99,0.05,3087.45,East,PayPal
+T00245,2025-11-25,C0075,Small Business,P010,Water Bottle,Accessories,2,19.99,0.2,31.98,South,Debit Card
+T00246,2025-01-22,C0006,Consumer,P003,Headphones,Electronics,6,89.99,0.2,431.95,North,PayPal
+T00247,2025-11-24,C0114,Corporate,P004,Monitor,Electronics,7,249.99,0.2,1399.94,North,PayPal
+T00248,2025-12-17,C0059,Corporate,P005,Office Chair,Furniture,8,179.99,0.05,1367.92,West,Credit Card
+T00249,2025-08-01,C0027,Corporate,P001,Laptop,Electronics,3,899.99,0.15,2294.97,West,PayPal
+T00250,2025-06-13,C0017,Corporate,P010,Water Bottle,Accessories,3,19.99,0.1,53.97,East,PayPal
+T00251,2025-05-04,C0035,Consumer,P009,Backpack,Accessories,2,49.99,0.1,89.98,West,Bank Transfer
+T00252,2025-01-26,C0111,Corporate,P004,Monitor,Electronics,3,249.99,0,749.97,East,Bank Transfer
+T00253,2025-10-23,C0098,Consumer,P004,Monitor,Electronics,3,249.99,0.1,674.97,East,Debit Card
+T00254,2025-06-07,C0012,Consumer,P008,Pen Set,Stationery,8,12.99,0.15,88.33,West,Bank Transfer
+T00255,2025-04-21,C0007,Consumer,P009,Backpack,Accessories,8,49.99,0.05,379.92,East,PayPal
+T00256,2025-10-02,C0056,Consumer,P008,Pen Set,Stationery,8,12.99,0.1,93.53,North,Debit Card
+T00257,2025-07-07,C0007,Corporate,P005,Office Chair,Furniture,6,179.99,0.15,917.95,North,Debit Card
+T00258,2025-07-17,C0036,Small Business,P006,Desk,Furniture,5,299.99,0,1499.95,West,Credit Card
+T00259,2025-07-11,C0047,Small Business,P003,Headphones,Electronics,2,89.99,0.15,152.98,East,Debit Card
+T00260,2025-01-21,C0018,Consumer,P004,Monitor,Electronics,7,249.99,0.2,1399.94,North,PayPal
+T00261,2025-11-07,C0120,Corporate,P008,Pen Set,Stationery,8,12.99,0.05,98.72,South,PayPal
+T00262,2025-06-03,C0107,Small Business,P003,Headphones,Electronics,7,89.99,0.2,503.94,East,Bank Transfer
+T00263,2025-01-09,C0087,Corporate,P010,Water Bottle,Accessories,5,19.99,0.15,84.96,East,Credit Card
+T00264,2025-11-02,C0084,Corporate,P007,Notebook,Stationery,5,4.99,0,24.95,West,Debit Card
+T00265,2025-09-26,C0106,Consumer,P001,Laptop,Electronics,8,899.99,0.05,6839.92,West,Debit Card
+T00266,2025-01-10,C0054,Corporate,P001,Laptop,Electronics,2,899.99,0.05,1709.98,West,Debit Card
+T00267,2025-09-14,C0094,Small Business,P007,Notebook,Stationery,4,4.99,0.15,16.97,West,Credit Card
+T00268,2025-06-16,C0049,Small Business,P003,Headphones,Electronics,4,89.99,0.2,287.97,West,PayPal
+T00269,2025-06-25,C0099,Small Business,P003,Headphones,Electronics,8,89.99,0.2,575.94,East,PayPal
+T00270,2025-05-07,C0039,Small Business,P010,Water Bottle,Accessories,8,19.99,0.05,151.92,East,Debit Card
+T00271,2025-12-20,C0062,Corporate,P005,Office Chair,Furniture,5,179.99,0.05,854.95,West,PayPal
+T00272,2025-03-04,C0105,Corporate,P009,Backpack,Accessories,5,49.99,0.1,224.96,West,PayPal
+T00273,2025-05-28,C0119,Corporate,P003,Headphones,Electronics,5,89.99,0,449.95,North,Bank Transfer
+T00274,2025-04-14,C0090,Small Business,P005,Office Chair,Furniture,8,179.99,0.05,1367.92,East,PayPal
+T00275,2025-10-28,C0007,Consumer,P003,Headphones,Electronics,2,89.99,0.2,143.98,South,Debit Card
+T00276,2025-07-31,C0061,Small Business,P004,Monitor,Electronics,1,249.99,0,249.99,East,Credit Card
+T00277,2025-03-22,C0120,Small Business,P003,Headphones,Electronics,1,89.99,0.2,71.99,West,Bank Transfer
+T00278,2025-06-14,C0008,Small Business,P008,Pen Set,Stationery,4,12.99,0.1,46.76,East,Credit Card
+T00279,2025-01-20,C0113,Corporate,P010,Water Bottle,Accessories,4,19.99,0.2,63.97,South,Debit Card
+T00280,2025-04-06,C0002,Consumer,P001,Laptop,Electronics,7,899.99,0.15,5354.94,East,PayPal
+T00281,2025-05-26,C0070,Small Business,P010,Water Bottle,Accessories,2,19.99,0.1,35.98,West,Bank Transfer
+T00282,2025-04-09,C0021,Corporate,P003,Headphones,Electronics,8,89.99,0.1,647.93,North,Bank Transfer
+T00283,2025-06-22,C0087,Small Business,P005,Office Chair,Furniture,3,179.99,0,539.97,East,Debit Card
+T00284,2025-09-21,C0052,Consumer,P003,Headphones,Electronics,7,89.99,0.15,535.44,East,Credit Card
+T00285,2025-06-15,C0034,Consumer,P003,Headphones,Electronics,3,89.99,0.15,229.47,South,Bank Transfer
+T00286,2025-06-18,C0093,Small Business,P004,Monitor,Electronics,8,249.99,0.1,1799.93,East,Credit Card
+T00287,2025-02-01,C0040,Corporate,P005,Office Chair,Furniture,6,179.99,0.05,1025.94,North,Debit Card
+T00288,2025-11-24,C0079,Corporate,P007,Notebook,Stationery,5,4.99,0,24.95,East,Debit Card
+T00289,2025-03-20,C0078,Small Business,P004,Monitor,Electronics,3,249.99,0.15,637.47,West,PayPal
+T00290,2025-12-07,C0088,,P007,Notebook,Stationery,8,4.99,0.2,31.94,South,Credit Card
+T00291,2025-12-27,C0118,Consumer,P009,Backpack,Accessories,8,49.99,0.2,319.94,East,Credit Card
+T00292,2025-10-02,C0042,Consumer,P001,Laptop,Electronics,4,899.99,0.2,2879.97,South,Bank Transfer
+T00293,2025-09-08,C0058,Small Business,P002,Smartphone,Electronics,4,649.99,0.2,2079.97,North,Credit Card
+T00294,2025-08-01,C0008,Small Business,P008,Pen Set,Stationery,3,12.99,0.2,31.18,West,Bank Transfer
+T00295,2025-05-11,C0028,Small Business,P005,Office Chair,Furniture,1,179.99,0.15,152.99,North,Credit Card
+T00296,2025-12-25,C0008,Small Business,P001,Laptop,Electronics,7,899.99,0.1,5669.94,North,Credit Card
+T00297,2025-07-29,C0099,Consumer,P008,Pen Set,Stationery,1,12.99,0.1,11.69,South,Bank Transfer
+T00298,2025-07-13,C0088,Consumer,P006,Desk,Furniture,7,299.99,0.15,1784.94,West,Debit Card
+T00299,2025-10-03,C0017,Small Business,P006,Desk,Furniture,2,299.99,0.05,569.98,West,Debit Card
+T00300,2025-08-26,C0049,Small Business,P001,Laptop,Electronics,1,899.99,0.1,809.99,West,Debit Card
+T00301,2025-03-21,C0120,Consumer,P004,Monitor,Electronics,8,249.99,0.1,1799.93,East,Credit Card
+T00302,2025-01-09,C0009,Consumer,P001,Laptop,Electronics,7,899.99,0.2,5039.94,South,Credit Card
+T00303,2025-11-03,C0095,Consumer,P010,Water Bottle,Accessories,1,19.99,0.15,16.99,North,Credit Card
+T00304,2025-10-04,C0018,Consumer,P007,Notebook,Stationery,8,4.99,0.05,37.92,South,PayPal
+T00305,2025-11-03,C0039,Consumer,P004,Monitor,Electronics,6,249.99,0.2,1199.95,East,Debit Card
+T00306,2025-06-03,C0072,Consumer,P009,Backpack,Accessories,4,49.99,0.15,169.97,East,Debit Card
+T00307,2025-06-26,C0041,Small Business,P007,Notebook,Stationery,8,4.99,0,39.92,West,Bank Transfer
+T00308,2025-07-12,C0061,Small Business,P007,Notebook,Stationery,3,4.99,0.1,13.47,South,Debit Card
+T00309,2025-08-26,C0053,Small Business,P004,Monitor,Electronics,5,249.99,0.05,1187.45,North,Bank Transfer
+T00310,2025-05-05,C0043,Consumer,P009,Backpack,Accessories,3,49.99,0.15,127.47,East,Credit Card
+T00311,2025-10-02,C0035,Consumer,P008,Pen Set,Stationery,6,12.99,0,77.94,South,Bank Transfer
+T00312,2025-04-07,C0027,Corporate,P010,Water Bottle,Accessories,1,19.99,0,19.99,South,PayPal
+T00313,2025-04-08,C0097,Small Business,P005,Office Chair,Furniture,1,179.99,0.05,170.99,North,Bank Transfer
+T00314,2025-05-03,C0049,Corporate,P004,Monitor,Electronics,4,249.99,0.15,849.97,East,Bank Transfer
+T00315,2025-05-14,C0113,Small Business,P009,Backpack,Accessories,6,49.99,0.1,269.95,East,Bank Transfer
+T00316,2025-06-13,C0041,Corporate,P008,Pen Set,Stationery,2,12.99,0.15,22.08,South,Bank Transfer
+T00317,2025-01-09,C0120,Small Business,P001,Laptop,Electronics,4,899.99,0.05,3419.96,East,Bank Transfer
+T00318,2025-06-18,C0073,Corporate,P005,Office Chair,Furniture,3,179.99,0.05,512.97,South,Debit Card
+T00319,2025-09-08,C0022,Corporate,P008,Pen Set,Stationery,6,12.99,0.1,70.15,West,PayPal
+T00320,2025-09-08,C0083,Small Business,P003,Headphones,Electronics,3,9999.99,0.2,23999.98,South,Credit Card
+T00321,2025-12-09,C0053,Consumer,P009,Backpack,Accessories,1,49.99,0,49.99,North,Debit Card
+T00322,2025-01-05,C0059,Small Business,P004,Monitor,Electronics,2,249.99,0.05,474.98,South,PayPal
+T00323,2025-01-09,C0071,Small Business,P001,Laptop,Electronics,8,899.99,0.15,6119.93,North,Bank Transfer
+T00324,2025-05-21,C0065,Consumer,P001,Laptop,Electronics,1,899.99,0.2,719.99,East,Bank Transfer
+T00325,2025-09-26,C0025,Consumer,P003,Headphones,Electronics,2,89.99,0,179.98,South,PayPal
+T00326,2025-02-10,C0059,Corporate,P006,Desk,Furniture,5,299.99,0.15,1274.96,East,Debit Card
+T00327,2025-12-01,C0052,Consumer,P004,Monitor,Electronics,5,249.99,0,1249.95,North,Bank Transfer
+T00328,2025-11-23,C0022,Small Business,P007,Notebook,Stationery,8,4.99,0,39.92,North,Credit Card
+T00329,2025-10-17,C0118,Small Business,P008,Pen Set,Stationery,7,12.99,0.1,81.84,North,Credit Card
+T00330,2025-09-01,C0119,Consumer,P004,Monitor,Electronics,4,249.99,0.2,799.97,East,Credit Card
+T00331,2025-06-11,C0076,Consumer,P005,Office Chair,Furniture,1,179.99,0.05,170.99,North,Debit Card
+T00332,2025-03-25,C0107,Small Business,P007,Notebook,Stationery,2,4.99,0.1,8.98,South,Bank Transfer
+T00333,2025-03-13,C0096,Small Business,P009,Backpack,Accessories,6,49.99,0.15,254.95,North,PayPal
+T00334,2025-04-29,C0078,Corporate,P001,Laptop,Electronics,2,899.99,0.15,1529.98,North,Bank Transfer
+T00335,2025-08-19,C0046,Consumer,P006,Desk,Furniture,1,299.99,0.1,269.99,West,Bank Transfer
+T00336,2025-12-05,C0099,Consumer,P007,Notebook,Stationery,3,4.99,0.2,11.98,West,PayPal
+T00337,2025-05-18,C0092,Corporate,P004,Monitor,Electronics,2,249.99,0,499.98,South,Debit Card
+T00338,2025-02-24,C0040,Consumer,P007,Notebook,Stationery,6,4.99,0.1,26.95,North,Bank Transfer
+T00339,2025-03-09,C0056,Consumer,P006,Desk,Furniture,5,299.99,0,1499.95,North,Bank Transfer
+T00340,2025-01-14,C0071,Corporate,P009,Backpack,Accessories,7,49.99,0,349.93,North,Credit Card
+T00341,2025-01-07,C0050,Corporate,P010,Water Bottle,Accessories,6,19.99,0.15,101.95,East,Credit Card
+T00342,2025-09-24,C0049,Small Business,P009,Backpack,Accessories,4,49.99,0.2,159.97,South,Debit Card
+T00343,2025-05-18,C0009,Consumer,P003,Headphones,Electronics,5,89.99,0.1,404.95,West,Debit Card
+T00344,2025-06-03,C0047,Consumer,P007,Notebook,Stationery,5,4.99,0.15,21.21,West,PayPal
+T00345,2025-11-12,C0014,Corporate,P004,Monitor,Electronics,8,249.99,0.2,1599.94,South,Debit Card
+T00346,2025-06-20,C0057,Corporate,P005,Office Chair,Furniture,1,179.99,0.15,152.99,West,PayPal
+T00347,2025-06-14,C0041,Corporate,P007,Notebook,Stationery,3,4.99,0.1,13.47,South,Debit Card
+T00348,2025-12-22,C0101,Small Business,P007,Notebook,Stationery,6,4.99,0.1,26.95,West,Debit Card
+T00349,2025-07-21,C0120,Consumer,P006,Desk,Furniture,7,299.99,0.1,1889.94,East,Debit Card
+T00350,2025-01-14,C0027,Small Business,P010,Water Bottle,Accessories,3,19.99,0.2,47.98,,Bank Transfer
+T00351,2025-12-11,C0082,Consumer,P005,Office Chair,Furniture,2,179.99,0.15,305.98,West,PayPal
+T00352,2025-08-05,C0058,Consumer,P004,Monitor,Electronics,5,249.99,0.05,1187.45,West,Bank Transfer
+T00353,2025-09-17,C0005,Small Business,P010,Water Bottle,Accessories,7,19.99,0.2,111.94,West,PayPal
+T00354,2025-05-08,C0083,Consumer,P009,Backpack,Accessories,2,49.99,0,99.98,East,Credit Card
+T00355,2025-08-09,C0013,Consumer,P010,Water Bottle,Accessories,7,19.99,0.1,125.94,North,PayPal
+T00356,2025-07-11,C0099,Corporate,P004,Monitor,Electronics,4,249.99,0.15,849.97,West,Debit Card
+T00357,2025-02-23,C0118,Corporate,P006,Desk,Furniture,1,299.99,0.15,254.99,East,Credit Card
+T00358,2025-06-09,C0101,Corporate,P002,Smartphone,Electronics,3,649.99,0.1,1754.97,East,Debit Card
+T00359,2025-09-01,C0093,Corporate,P009,Backpack,Accessories,8,49.99,0.1,359.93,North,Bank Transfer
+T00360,2025-01-23,C0109,Consumer,P006,Desk,Furniture,2,299.99,0.1,539.98,North,PayPal
+T00361,2025-09-22,C0021,Small Business,P002,Smartphone,Electronics,3,649.99,0.05,1852.47,South,PayPal
+T00362,2025-04-29,C0024,Small Business,P009,Backpack,Accessories,7,49.99,0.15,297.44,West,Debit Card
+T00363,2025-11-11,C0076,Corporate,P007,Notebook,Stationery,7,4.99,0,34.93,South,Bank Transfer
+T00364,2025-04-16,C0104,Small Business,P007,Notebook,Stationery,1,4.99,0.05,4.74,East,Credit Card
+T00365,2025-04-06,C0026,Corporate,P010,Water Bottle,Accessories,2,19.99,0.2,31.98,East,Bank Transfer
+T00366,2025-09-28,C0050,Small Business,P002,Smartphone,Electronics,5,649.99,0.15,2762.46,East,Bank Transfer
+T00367,2025-06-30,C0023,Small Business,P010,Water Bottle,Accessories,2,19.99,0.1,35.98,West,PayPal
+T00368,2025-06-10,C0040,Consumer,P010,Water Bottle,Accessories,2,19.99,0.05,37.98,North,Credit Card
+T00369,2025-09-19,C0077,Corporate,P003,Headphones,Electronics,6,89.99,0.05,512.94,West,Debit Card
+T00370,2025-04-06,C0069,Small Business,P010,Water Bottle,Accessories,7,19.99,0.15,118.94,West,Debit Card
+T00371,2025-05-28,C0041,Consumer,P009,Backpack,Accessories,3,49.99,0.15,127.47,South,Bank Transfer
+T00372,2025-01-05,C0025,Consumer,P010,Water Bottle,Accessories,1,19.99,0.1,17.99,West,Bank Transfer
+T00373,2025-12-17,C0091,Corporate,P009,Backpack,Accessories,8,49.99,0.15,339.93,West,Bank Transfer
+T00374,2025-10-17,C0038,Consumer,P008,Pen Set,Stationery,3,12.99,0,38.97,North,Credit Card
+T00375,2025-05-28,C0073,Corporate,P005,Office Chair,Furniture,4,179.99,0.2,575.97,South,Bank Transfer
+T00376,2025-02-28,C0106,Small Business,P009,Backpack,Accessories,2,49.99,0.2,79.98,East,PayPal
+T00377,2025-10-07,C0014,Corporate,P009,Backpack,Accessories,1,49.99,0.15,42.49,South,Debit Card
+T00378,2025-05-15,C0057,Consumer,P005,Office Chair,Furniture,1,179.99,0.15,152.99,East,Credit Card
+T00379,2025-12-19,C0079,Small Business,P004,Monitor,Electronics,4,249.99,0.2,799.97,East,Bank Transfer
+T00380,2025-04-16,C0045,Small Business,P003,Headphones,Electronics,3,89.99,0.05,256.47,North,PayPal
+T00381,2025-12-27,C0074,Corporate,P010,Water Bottle,Accessories,3,19.99,0.1,53.97,East,PayPal
+T00382,2025-07-30,C0111,Corporate,P009,Backpack,Accessories,2,49.99,0.05,94.98,North,Debit Card
+T00383,2025-12-31,C0098,Consumer,P003,Headphones,Electronics,4,89.99,0.05,341.96,East,Bank Transfer
+T00384,2025-11-20,C0054,Small Business,P008,Pen Set,Stationery,3,12.99,0.2,31.18,East,Bank Transfer
+T00385,2025-07-26,C0120,Small Business,P008,Pen Set,Stationery,2,12.99,0,25.98,East,PayPal
+T00386,2025-10-25,C0012,Small Business,P008,Pen Set,Stationery,8,12.99,0.1,93.53,North,Bank Transfer
+T00387,2025-07-23,C0106,Corporate,P006,Desk,Furniture,2,299.99,0.2,479.98,South,Debit Card
+T00388,2025-05-26,C0074,Small Business,P008,Pen Set,Stationery,5,12.99,0.1,58.46,East,Debit Card
+T00389,2025-12-16,C0013,Consumer,P010,Water Bottle,Accessories,8,19.99,0.1,143.93,North,Bank Transfer
+T00390,2025-08-14,C0055,Consumer,P001,Laptop,Electronics,2,899.99,0.05,1709.98,West,Debit Card
+T00391,2025-05-21,C0047,Small Business,P003,Headphones,Electronics,5,89.99,0.05,427.45,North,PayPal
+T00392,2025-01-27,C0040,Small Business,P002,Smartphone,Electronics,6,649.99,0.05,3704.94,West,Debit Card
+T00393,2025-01-01,C0010,Corporate,P007,Notebook,Stationery,2,4.99,0,9.98,South,Debit Card
+T00394,2025-12-15,C0002,Consumer,P010,Water Bottle,Accessories,4,19.99,0.2,63.97,West,PayPal
+T00395,2025-09-02,C0050,Consumer,P002,Smartphone,Electronics,7,649.99,0.05,4322.43,North,Credit Card
+T00396,2025-07-08,C0049,Consumer,P002,Smartphone,Electronics,2,649.99,0.1,1169.98,East,Debit Card
+T00397,2025-10-16,C0084,Small Business,P003,Headphones,Electronics,2,89.99,0.2,143.98,North,Debit Card
+T00398,2025-11-18,C0079,Corporate,P008,Pen Set,Stationery,6,12.99,0.05,74.04,South,Bank Transfer
+T00399,2025-03-13,C0094,Small Business,P004,Monitor,Electronics,2,249.99,0,499.98,North,Bank Transfer
+T00400,2025-03-13,C0083,Corporate,P006,Desk,Furniture,7,299.99,0.1,1889.94,South,Credit Card
+T00401,2025-12-04,C0067,Consumer,P004,Monitor,Electronics,5,249.99,0,1249.95,East,Debit Card
+T00402,2025-05-03,C0015,Corporate,P007,Notebook,Stationery,5,4.99,0,24.95,West,Debit Card
+T00403,2025-01-07,C0017,Corporate,P008,Pen Set,Stationery,2,12.99,0.2,20.78,East,Bank Transfer
+T00404,2025-10-07,C0099,Corporate,P010,Water Bottle,Accessories,7,19.99,0.1,125.94,South,Credit Card
+T00405,2025-05-15,C0119,Consumer,P001,Laptop,Electronics,2,899.99,0,1799.98,South,Credit Card
+T00406,2025-08-01,C0052,Small Business,P007,Notebook,Stationery,5,4.99,0.2,19.96,West,Credit Card
+T00407,2025-02-12,C0066,Consumer,P009,Backpack,Accessories,3,49.99,0.1,134.97,East,Debit Card
+T00408,2025-10-28,C0090,Corporate,P003,Headphones,Electronics,6,89.99,0.15,458.95,North,Bank Transfer
+T00409,2025-02-14,C0059,Consumer,P004,Monitor,Electronics,1,249.99,0.05,237.49,West,Credit Card
+T00410,2025-01-07,C0002,Small Business,P005,Office Chair,Furniture,3,179.99,0,539.97,South,Debit Card
+T00411,2025-09-22,C0048,Consumer,P008,Pen Set,Stationery,6,12.99,0.2,62.35,East,Debit Card
+T00412,2025-06-21,C0068,Corporate,P005,Office Chair,Furniture,2,179.99,0,359.98,West,Credit Card
+T00413,2025-08-22,C0064,Consumer,P005,Office Chair,Furniture,2,179.99,0.15,305.98,East,Debit Card
+T00414,2025-02-22,C0095,Consumer,P006,Desk,Furniture,3,299.99,0.1,809.97,North,Credit Card
+T00415,2025-01-24,C0050,Corporate,P001,Laptop,Electronics,1,899.99,0.05,854.99,West,Debit Card
+T00416,2025-12-02,C0042,Consumer,P003,Headphones,Electronics,1,89.99,0.2,71.99,West,Debit Card
+T00417,2025-02-09,C0065,Consumer,P007,Notebook,Stationery,6,4.99,0.1,26.95,East,Credit Card
+T00418,2025-01-24,C0113,Consumer,P003,Headphones,Electronics,4,89.99,0.2,287.97,West,Bank Transfer
+T00419,2025-02-14,C0048,Consumer,P005,Office Chair,Furniture,5,179.99,0.1,809.96,West,Debit Card
+T00420,2025-05-05,C0076,Corporate,P005,Office Chair,Furniture,5,179.99,0.2,719.96,West,Bank Transfer
+T00421,2025-01-04,C0030,Consumer,P004,Monitor,Electronics,4,249.99,0.05,949.96,West,PayPal
+T00422,2025-12-03,C0094,Small Business,P001,Laptop,Electronics,6,899.99,0,5399.94,West,PayPal
+T00423,2025-05-02,C0008,Corporate,P002,Smartphone,Electronics,4,649.99,0.2,2079.97,West,Debit Card
+T00424,2025-04-29,C0115,Small Business,P005,Office Chair,Furniture,2,179.99,0,359.98,West,PayPal
+T00425,2025-02-18,C0105,Small Business,P008,Pen Set,Stationery,2,12.99,0.2,20.78,South,Bank Transfer
+T00426,2025-12-06,C0038,Consumer,P002,Smartphone,Electronics,1,649.99,0.15,552.49,South,PayPal
+T00427,2025-06-12,C0030,Corporate,P006,Desk,Furniture,7,299.99,0.1,1889.94,West,Credit Card
+T00428,2025-02-25,C0022,Consumer,P004,Monitor,Electronics,3,249.99,0.2,599.98,South,Bank Transfer
+T00429,2025-03-03,C0058,Consumer,P008,Pen Set,Stationery,6,12.99,0.15,66.25,East,PayPal
+T00430,2025-02-16,C0039,Small Business,P008,Pen Set,Stationery,5,12.99,0,64.95,South,Credit Card
+T00431,2025-02-16,C0051,Corporate,P004,Monitor,Electronics,6,249.99,0.05,1424.94,South,Credit Card
+T00432,2025-01-16,C0072,Corporate,P005,Office Chair,Furniture,5,179.99,0.05,854.95,West,Debit Card
+T00433,2025-03-13,C0008,Consumer,P002,Smartphone,Electronics,8,649.99,0,5199.92,North,Debit Card
+T00434,2025-07-10,C0076,Small Business,P003,Headphones,Electronics,4,89.99,0.15,305.97,North,PayPal
+T00435,2025-04-12,C0012,Consumer,P002,Smartphone,Electronics,1,649.99,0,649.99,West,PayPal
+T00436,2025-01-26,C0056,Small Business,P002,Smartphone,Electronics,1,649.99,0.15,552.49,South,Bank Transfer
+T00437,2025-12-16,C0046,Consumer,P008,Pen Set,Stationery,1,12.99,0.15,11.04,West,Debit Card
+T00438,2025-08-17,C0079,Consumer,P003,Headphones,Electronics,5,89.99,0.1,404.95,South,Debit Card
+T00439,2025-10-09,C0012,Consumer,P005,Office Chair,Furniture,8,179.99,0.15,1223.93,West,PayPal
+T00440,2025-04-13,C0103,Small Business,P007,Notebook,Stationery,3,4.99,0.15,12.72,South,Credit Card
+T00441,2025-10-06,C0117,Corporate,P007,Notebook,Stationery,6,4.99,0.15,25.45,West,PayPal
+T00442,2025-01-14,C0029,Small Business,P007,Notebook,Stationery,5,4.99,0.05,23.7,East,Credit Card
+T00443,2025-09-29,C0030,Small Business,P005,Office Chair,Furniture,1,179.99,0.15,152.99,East,Debit Card
+T00444,2025-05-17,C0074,Consumer,P002,Smartphone,Electronics,4,649.99,0.05,2469.96,North,Bank Transfer
+T00445,2025-05-02,C0090,Small Business,P006,Desk,Furniture,3,299.99,0.05,854.97,East,PayPal
+T00446,2025-10-18,C0025,Small Business,P010,Water Bottle,Accessories,1,19.99,0.1,17.99,South,Bank Transfer
+T00447,2025-09-09,C0008,Consumer,P009,Backpack,Accessories,5,49.99,0.05,237.45,North,Debit Card
+T00448,2025-09-27,C0043,Consumer,P010,Water Bottle,Accessories,4,19.99,0,79.96,West,Debit Card
+T00449,2025-06-15,C0019,Consumer,P003,Headphones,Electronics,6,89.99,0.05,512.94,North,Debit Card
+T00450,2025-07-11,C0013,Small Business,P002,Smartphone,Electronics,6,649.99,0,3899.94,West,PayPal
+T00451,2025-03-22,C0063,Small Business,P005,Office Chair,Furniture,6,179.99,0.05,1025.94,West,PayPal
+T00452,2025-12-07,C0040,Corporate,P003,Headphones,Electronics,6,89.99,0.05,512.94,South,PayPal
+T00453,2025-12-26,C0005,Small Business,P003,Headphones,Electronics,3,89.99,0,269.97,West,Debit Card
+T00454,2025-04-24,C0019,Corporate,P010,Water Bottle,Accessories,6,19.99,0.2,95.95,North,PayPal
+T00455,2025-06-13,C0114,Small Business,P002,Smartphone,Electronics,4,649.99,0.1,2339.96,South,Credit Card
+T00456,2025-05-16,C0089,Consumer,P006,Desk,Furniture,8,299.99,0,2399.92,South,Credit Card
+T00457,2025-01-01,C0057,Corporate,P006,Desk,Furniture,5,299.99,0,1499.95,North,Bank Transfer
+T00458,2025-07-13,C0049,Small Business,P003,Headphones,Electronics,7,89.99,0.15,535.44,East,Credit Card
+T00459,2025-08-20,C0038,Consumer,P008,Pen Set,Stationery,4,12.99,0.05,49.36,North,Credit Card
+T00460,2025-02-07,C0114,Consumer,P006,Desk,Furniture,5,299.99,0,1499.95,East,Bank Transfer
+T00461,2025-02-17,C0079,Small Business,P003,Headphones,Electronics,2,89.99,0.2,143.98,East,Bank Transfer
+T00462,2025-11-07,C0007,Consumer,P001,Laptop,Electronics,7,899.99,0.05,5984.93,West,Credit Card
+T00463,2025-07-29,C0037,Small Business,P006,Desk,Furniture,4,299.99,0.05,1139.96,East,PayPal
+T00464,2025-07-21,C0007,Consumer,P004,Monitor,Electronics,2,249.99,0,499.98,West,PayPal
+T00465,2025-05-31,C0013,Consumer,P001,Laptop,Electronics,7,899.99,0,6299.93,West,Credit Card
+T00466,2025-02-11,C0040,Consumer,P004,Monitor,Electronics,3,249.99,0.1,674.97,West,Bank Transfer
+T00467,2025-02-16,C0048,Consumer,P008,Pen Set,Stationery,8,12.99,0.1,93.53,West,Bank Transfer
+T00468,2025-01-23,C0060,Corporate,P006,Desk,Furniture,3,299.99,0.15,764.97,East,PayPal
+T00469,2025-02-01,C0086,Small Business,P004,Monitor,Electronics,5,249.99,0.2,999.96,South,Credit Card
+T00470,2025-07-31,C0008,Small Business,P002,Smartphone,Electronics,6,649.99,0.2,3119.95,South,Bank Transfer
+T00471,2025-12-18,C0113,Small Business,P009,Backpack,Accessories,7,49.99,0.2,279.94,West,Debit Card
+T00472,2025-07-22,C0074,Small Business,P008,Pen Set,Stationery,5,12.99,0,64.95,North,Debit Card
+T00473,2025-03-27,C0017,Consumer,P002,Smartphone,Electronics,8,649.99,0.05,4939.92,South,Credit Card
+T00474,2025-04-14,C0034,Small Business,P007,Notebook,Stationery,2,4.99,0.15,8.48,South,PayPal
+T00475,2025-10-12,C0042,Small Business,P002,Smartphone,Electronics,2,649.99,0.15,1104.98,West,PayPal
+T00476,2025-12-25,C0054,Consumer,P009,Backpack,Accessories,8,49.99,0,399.92,West,Debit Card
+T00477,2025-10-16,C0112,Corporate,P003,Headphones,Electronics,2,89.99,0,179.98,North,PayPal
+T00478,2025-12-02,C0078,Small Business,P007,Notebook,Stationery,5,4.99,0.15,21.21,West,Bank Transfer
+T00479,2025-07-26,C0078,Small Business,P001,Laptop,Electronics,3,899.99,0.1,2429.97,South,Bank Transfer
+T00480,2025-12-20,C0096,Consumer,P001,Laptop,Electronics,7,899.99,0.1,5669.94,South,Bank Transfer
+T00481,2025-06-22,C0036,Corporate,P005,Office Chair,Furniture,6,179.99,0,1079.94,East,Bank Transfer
+T00482,2025-06-03,C0035,Corporate,P002,Smartphone,Electronics,4,649.99,0.05,2469.96,West,Bank Transfer
+T00483,2025-08-15,C0095,Corporate,P010,Water Bottle,Accessories,2,19.99,0.05,37.98,South,Bank Transfer
+T00484,2025-09-21,C0040,Consumer,P009,Backpack,Accessories,6,49.99,0,299.94,South,Bank Transfer
+T00485,2025-04-09,C0032,Consumer,P003,Headphones,Electronics,1,89.99,0.05,85.49,South,Credit Card
+T00486,2025-12-27,C0048,Corporate,P008,Pen Set,Stationery,1,12.99,0.1,11.69,South,Bank Transfer
+T00487,2025-12-15,C0048,Consumer,P009,Backpack,Accessories,7,49.99,0,349.93,North,Bank Transfer
+T00488,2025-08-31,C0021,Corporate,P010,Water Bottle,Accessories,8,19.99,0.05,151.92,East,PayPal
+T00489,2025-07-17,C0110,Consumer,P002,Smartphone,Electronics,5,649.99,0,3249.95,North,Debit Card
+T00490,2025-05-18,C0003,Small Business,P004,Monitor,Electronics,4,249.99,0.05,949.96,West,Credit Card
+T00491,2025-11-04,C0033,Consumer,P008,Pen Set,Stationery,3,12.99,0.05,37.02,North,PayPal
+T00492,2025-06-28,C0028,Corporate,P005,Office Chair,Furniture,7,179.99,0.15,1070.94,West,Bank Transfer
+T00493,2025-02-22,C0085,Small Business,P005,Office Chair,Furniture,7,179.99,0.2,1007.94,North,PayPal
+T00494,2025-12-17,C0009,Corporate,P009,Backpack,Accessories,5,49.99,0.1,224.96,North,PayPal
+T00495,2025-05-14,C0020,Consumer,P005,Office Chair,Furniture,6,179.99,0.1,971.95,East,Debit Card
+T00496,2025-12-15,C0004,Small Business,P001,Laptop,Electronics,7,899.99,0.1,5669.94,South,Bank Transfer
+T00497,2025-07-27,C0005,Small Business,P005,Office Chair,Furniture,5,179.99,0.15,764.96,West,Debit Card
+T00498,2025-11-23,C0046,Small Business,P006,Desk,Furniture,4,299.99,0.2,959.97,West,PayPal
+T00499,2025-02-19,C0095,Consumer,P003,Headphones,Electronics,3,89.99,0.1,242.97,West,PayPal
+T00500,2025-12-02,C0046,Consumer,P009,Backpack,Accessories,3,49.99,0.1,134.97,North,Debit Card

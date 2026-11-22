@@ -1,0 +1,25 @@
+{
+    "summary": {
+        "total_anomalies": 2,
+        "quantity_anomalies": 1,
+        "price_anomalies": 1
+    },
+    "quantity_anomalies": [
+        {
+            "transaction_id": "T00120",
+            "product_name": "Notebook",
+            "quantity": 45,
+            "unit_price": null,
+            "total_amount": 190.87
+        }
+    ],
+    "price_anomalies": [
+        {
+            "transaction_id": "T00320",
+            "product_name": "Headphones",
+            "quantity": null,
+            "unit_price": 9999.99,
+            "total_amount": 23999.98
+        }
+    ]
+}

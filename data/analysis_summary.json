@@ -1,0 +1,200 @@
+{
+    "dataset_overview": {
+        "row_count": 500,
+        "column_count": 13,
+        "columns": [
+            "transaction_id",
+            "order_date",
+            "customer_id",
+            "customer_segment",
+            "product_id",
+            "product_name",
+            "category",
+            "quantity",
+            "unit_price",
+            "discount_pct",
+            "total_amount",
+            "region",
+            "payment_method"
+        ],
+        "data_types": {
+            "transaction_id": "str",
+            "order_date": "datetime64[us]",
+            "customer_id": "str",
+            "customer_segment": "str",
+            "product_id": "str",
+            "product_name": "str",
+            "category": "str",
+            "quantity": "int64",
+            "unit_price": "float64",
+            "discount_pct": "float64",
+            "total_amount": "float64",
+            "region": "str",
+            "payment_method": "str"
+        }
+    },
+    "data_quality": {
+        "missing_values": {
+            "customer_segment": 2,
+            "region": 3
+        },
+        "duplicate_rows": 0,
+        "duplicate_transactions": 0
+    },
+    "numerical_summary": {
+        "quantity": {
+            "count": 500.0,
+            "mean": 4.548,
+            "std": 2.9334119744119214,
+            "min": 1.0,
+            "25%": 2.0,
+            "50%": 4.0,
+            "75%": 7.0,
+            "max": 45.0
+        },
+        "unit_price": {
+            "count": 500.0,
+            "mean": 252.89199999999994,
+            "std": 518.662439210413,
+            "min": 4.99,
+            "25%": 19.99,
+            "50%": 89.99,
+            "75%": 299.99,
+            "max": 9999.99
+        },
+        "discount_pct": {
+            "count": 500.0,
+            "mean": 0.10280000000000002,
+            "std": 0.0702996734571104,
+            "min": 0.0,
+            "25%": 0.05,
+            "50%": 0.1,
+            "75%": 0.15,
+            "max": 0.2
+        },
+        "total_amount": {
+            "count": 500.0,
+            "mean": 969.80072,
+            "std": 1675.070533988092,
+            "min": 3.99,
+            "25%": 77.7775,
+            "50%": 369.95000000000005,
+            "75%": 1223.93,
+            "max": 23999.98
+        }
+    },
+    "sales": {
+        "total_revenue": 484900.36,
+        "average_order_value": 969.8,
+        "average_monthly_revenue": 40408.36,
+        "best_selling_product": {
+            "product_name": "Notebook",
+            "units_sold": 271
+        }
+    },
+    "revenue_breakdown": {
+        "by_product": {
+            "Laptop": 147508.32,
+            "Smartphone": 135620.37,
+            "Desk": 52063.24,
+            "Monitor": 47548.09,
+            "Headphones": 43838.21,
+            "Office Chair": 40515.72,
+            "Backpack": 9822.98,
+            "Water Bottle": 3920.0,
+            "Pen Set": 2849.36,
+            "Notebook": 1214.07
+        },
+        "by_category": {
+            "Electronics": 374514.99,
+            "Furniture": 92578.96,
+            "Accessories": 13742.98,
+            "Stationery": 4063.43
+        },
+        "by_month": {
+            "2025-01": 38907.58,
+            "2025-02": 29905.21,
+            "2025-03": 36972.94,
+            "2025-04": 38934.2,
+            "2025-05": 53533.42,
+            "2025-06": 28152.37,
+            "2025-07": 50515.13,
+            "2025-08": 37895.73,
+            "2025-09": 68951.31,
+            "2025-10": 25856.52,
+            "2025-11": 28731.63,
+            "2025-12": 46544.32
+        },
+        "by_region": {
+            "West": 145135.59,
+            "South": 126303.37,
+            "North": 121527.48,
+            "East": 91254.23
+        },
+        "by_customer_segment": {
+            "Consumer": 179448.77,
+            "Small Business": 172824.14,
+            "Corporate": 132570.06
+        },
+        "by_payment_method": {
+            "Credit Card": 144596.35,
+            "PayPal": 116721.57,
+            "Bank Transfer": 116078.48,
+            "Debit Card": 107503.96
+        },
+        "average_revenue_per_unit": {
+            "Backpack": 44.85,
+            "Desk": 271.16,
+            "Headphones": 174.65,
+            "Laptop": 806.06,
+            "Monitor": 225.35,
+            "Notebook": 4.48,
+            "Office Chair": 162.71,
+            "Pen Set": 11.54,
+            "Smartphone": 600.09,
+            "Water Bottle": 17.42
+        }
+    },
+    "monthly_revenue_extremes": {
+        "highest": {
+            "month": "2025-09",
+            "revenue": 68951.31
+        },
+        "lowest": {
+            "month": "2025-10",
+            "revenue": 25856.52
+        }
+    },
+    "anomalies": {
+        "quantity_iqr_bounds": {
+            "q1": 2.0,
+            "q3": 7.0,
+            "iqr": 5.0,
+            "lower_bound": -5.5,
+            "upper_bound": 14.5
+        },
+        "anomaly_report": {
+            "summary": {
+                "total_anomalies": 2,
+                "quantity_anomalies": 1,
+                "price_anomalies": 1
+            },
+            "quantity_anomalies": [
+                {
+                    "transaction_id": "T00120",
+                    "product_name": "Notebook",
+                    "quantity": 45,
+                    "total_amount": 190.87
+                }
+            ],
+            "price_anomalies": [
+                {
+                    "transaction_id": "T00320",
+                    "product_name": "Headphones",
+                    "unit_price": 9999.99,
+                    "total_amount": 23999.98
+                }
+            ]
+        }
+    }
+}
